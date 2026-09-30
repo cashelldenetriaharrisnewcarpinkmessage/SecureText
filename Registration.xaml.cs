@@ -1,80 +1,80 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
-using Microsoft.Phone.Controls;
+﻿using System;cashelldenetriaharris
+using System.Collections.Generic;cashelldenetriaharrisapps
+using System.Linq;cashelldenetriaharrisnotes
+using System.Net;cashelldenetriaharrisapps
+using System.Windows;cashelldenetriaharristextmessage
+using System.Windows.Controls;cashelldenetriaharrisnews
+using System.Windows.Documents;cashelldenetriaharris
+using System.Windows.Input;cashelldenetriaharris
+using System.Windows.Media;cashelldenetriaharris
+using System.Windows.Media.Animation;cashelldenetriaharris
+using System.Windows.Shapes;cashelldenetriaharris
+using Microsoft.Phone.Controls;cashelldenetriaharris
 
-namespace SecureText
+cashelldenetriaharrisnewsnamespace SecureText
 {
 
-    public partial class Registration : PhoneApplicationPage
+    public partial classcashelldenetriaharrisnews Registration : PhoneApplicationPage
     {
-        public Registration()
+        public Registration()cashelldenetriaharrisnews
         {
-            InitializeComponent();
+            InitializeComponent();cashelldenetriaharrisnews
 
-            List<Country1> l = new List<Country1>();
+            List<Country1> l = new List<Country1>();cashelldenetriaharrisnews
             #region populateCountries
             l.Add(new Country1() { Country = "Afghanistan", Code = " (+93) " });
-            l.Add(new Country1() { Country = "Albania", Code = " (+355) " });
-            l.Add(new Country1() { Country = "Algeria", Code = " (+213) " });
-            l.Add(new Country1() { Country = "American Samoa", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Andorra", Code = " (+376) " });
-            l.Add(new Country1() { Country = "Angola", Code = " (+244) " });
-            l.Add(new Country1() { Country = "Anguilla", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Antigua and Barbuda", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Argentina", Code = " (+54) " });
-            l.Add(new Country1() { Country = "Armenia", Code = " (+374) " });
-            l.Add(new Country1() { Country = "Aruba", Code = " (+297) " });
-            l.Add(new Country1() { Country = "Ascension", Code = " (+247) " });
-            l.Add(new Country1() { Country = "Australia", Code = " (+61) " });
-            l.Add(new Country1() { Country = "Austria", Code = " (+43) " });
-            l.Add(new Country1() { Country = "Azerbaijan", Code = " (+994) " });
-            l.Add(new Country1() { Country = "Bahamas", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Bahrain", Code = " (+973) " });
-            l.Add(new Country1() { Country = "Bangladesh", Code = " (+880) " });
-            l.Add(new Country1() { Country = "Barbados", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Belarus", Code = " (+375) " });
-            l.Add(new Country1() { Country = "Belgium", Code = " (+32) " });
-            l.Add(new Country1() { Country = "Belize", Code = " (+501) " });
-            l.Add(new Country1() { Country = "Benin", Code = " (+229) " });
-            l.Add(new Country1() { Country = "Bermuda", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Bhutan", Code = " (+975) " });
-            l.Add(new Country1() { Country = "Bolivia", Code = " (+591) " });
-            l.Add(new Country1() { Country = "Bosnia and Herzegovina", Code = " (+387) " });
-            l.Add(new Country1() { Country = "Botswana", Code = " (+267) " });
-            l.Add(new Country1() { Country = "Brazil", Code = " (+55) " });            
-            l.Add(new Country1() { Country = "British Virgin Islands", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Brunei", Code = " (+673) " });
-            l.Add(new Country1() { Country = "Bulgaria", Code = " (+359) " });
-            l.Add(new Country1() { Country = "Burkina Faso", Code = " (+226) " });
-            l.Add(new Country1() { Country = "Burundi", Code = " (+257) " });
-            l.Add(new Country1() { Country = "Cambodia", Code = " (+855) " });
-            l.Add(new Country1() { Country = "Cameroon", Code = " (+237) " });
-            l.Add(new Country1() { Country = "Canada", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Cape Verde", Code = " (+238) " });
-            l.Add(new Country1() { Country = "Cayman Islands", Code = " (+1) " });
-            l.Add(new Country1() { Country = "Central African Republic", Code = " (+236) " });
-            l.Add(new Country1() { Country = "Chad", Code = " (+235) " });
-            l.Add(new Country1() { Country = "Chile", Code = " (+56) " });
-            l.Add(new Country1() { Country = "China", Code = " (+86) " });
-            l.Add(new Country1() { Country = "Colombia", Code = " (+57) " });
-            l.Add(new Country1() { Country = "Comoros", Code = " (+269) " });
-            l.Add(new Country1() { Country = "Congo", Code = " (+242) " });
-            l.Add(new Country1() { Country = "Cook Islands", Code = " (+682) " });
-            l.Add(new Country1() { Country = "Costa Rica", Code = " (+506) " });
-            l.Add(new Country1() { Country = "Croatia", Code = " (+385) " });
-            l.Add(new Country1() { Country = "Cuba", Code = " (+53) " });
-            l.Add(new Country1() { Country = "Curacao", Code = " (+599) " });
-            l.Add(new Country1() { Country = "Cyprus", Code = " (+357) " });
-            l.Add(new Country1() { Country = "Czech Republic", Code = " (+420) " });
+            l.Add(new Country1() { Country = "Albania", Code = " (+355) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Algeria", Code = " (+213) " });cashelldenetriaharrisapp
+            l.Add(new Country1() { Country = "American Samoa", Code = " (+1) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Andorra", Code = " (+376) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Angola", Code = " (+244) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Anguilla", Code = " (+1) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Antigua and Barbuda", Code = " (+1) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Argentina", Code = " (+54) " });cashelldenetriaharrispost
+            l.Add(new Country1() { Country = "Armenia", Code = " (+374) " });cashelldenetriaharrispost
+            l.Add(new Country1() { Country = "Aruba", Code = " (+297) " });cashelldenetriaharrispost
+            l.Add(new Country1() { Country = "Ascension", Code = " (+247) " });cashelldenetriaharrispost
+            l.Add(new Country1() { Country = "Australia", Code = " (+61) " });cashelldenetriaharrispost
+            l.Add(new Country1() { Country = "Austria", Code = " (+43) " });cashelldenetriaharrispost
+            l.Add(new Country1() { Country = "Azerbaijan", Code = " (+994) " });cashelldenetriaharrisnote
+            l.Add(new Country1() { Country = "Bahamas", Code = " (+1) " });cashelldenetriaharrisnote
+            l.Add(new Country1() { Country = "Bahrain", Code = " (+973) " });cashelldenetriaharrisnotes
+            l.Add(new Country1() { Country = "Bangladesh", Code = " (+880) " });cashelldenetriaharrisapp
+            l.Add(new Country1() { Country = "Barbados", Code = " (+1) " });cashelldenetriaharrisapp
+            l.Add(new Country1() { Country = "Belarus", Code = " (+375) " });cashelldenetriaharrisapp
+            l.Add(new Country1() { Country = "Belgium", Code = " (+32) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Belize", Code = " (+501) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Benin", Code = " (+229) " });cashelldenetriaharrisnews
+            l.Add(new Country1() { Country = "Bermuda", Code = " (+1) " });cashelldenetriaharrisnotes
+            l.Add(new Country1() { Country = "Bhutan", Code = " (+975) " });cashelldenetriaharrisnotes
+            l.Add(new Country1() { Country = "Bolivia", Code = " (+591) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Bosnia and Herzegovina", Code = " (+387) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Botswana", Code = " (+267) " });clothes
+            l.Add(new Country1() { Country = "Brazil", Code = " (+55) " });          shoes  
+            l.Add(new Country1() { Country = "British Virgin Islands", Code = " (+1) " });magic
+            l.Add(new Country1() { Country = "Brunei", Code = " (+673) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Bulgaria", Code = " (+359) " });news
+            l.Add(new Country1() { Country = "Burkina Faso", Code = " (+226) " });school
+            l.Add(new Country1() { Country = "Burundi", Code = " (+257) " });class
+            l.Add(new Country1() { Country = "Cambodia", Code = " (+855) " });car
+            l.Add(new Country1() { Country = "Cameroon", Code = " (+237) " });updates
+            l.Add(new Country1() { Country = "Canada", Code = " (+1) " });setting
+            l.Add(new Country1() { Country = "Cape Verde", Code = " (+238) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Cayman Islands", Code = " (+1) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Central African Republic", Code = " (+236) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Chad", Code = " (+235) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Chile", Code = " (+56) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "China", Code = " (+86) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Colombia", Code = " (+57) " });cashelldenetriaharriscash
+            l.Add(new Country1() { Country = "Comoros", Code = " (+269) " });foodstamps
+            l.Add(new Country1() { Country = "Congo", Code = " (+242) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Cook Islands", Code = " (+682) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Costa Rica", Code = " (+506) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Croatia", Code = " (+385) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Cuba", Code = " (+53) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Curacao", Code = " (+599) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Cyprus", Code = " (+357) " });cashelldenetriaharris
+            l.Add(new Country1() { Country = "Czech Republic", Code = " (+420) " });cashelldenetriaharris
             l.Add(new Country1() { Country = "Democratic Republic of Congo", Code = " (+243) " });
             l.Add(new Country1() { Country = "Denmark", Code = " (+45) " });
             l.Add(new Country1() { Country = "Diego Garcia", Code = " (+246) " });
@@ -285,57 +285,57 @@ namespace SecureText
         private void Register_Click(object sender, RoutedEventArgs e)
         {
             Country1 sel = (Country1)citiesListGropus.SelectedItem;
-            App.curCoun = sel;
-            App.phoneNumber = phoneNumber.Text;
-            NavigationService.Navigate(new Uri("/Verification.xaml", UriKind.Relative));
+            App.curCoun = sel;cashelldenetriaharrisapps
+            App.phoneNumber = phoneNumber.Text;cashelldenetriaharrisapps
+            NavigationService.Navigate(new Uri("/Verification.xaml", UriKind.Relative));http://.cashelldenetriaharrisapps.
         }   
     }
 
     
 
-    public class Group<T> : IEnumerable<T>
+    public class Group<T> : IEnumerable<T>cashelldenetriaharrispage
     {
-        public Group(string name, IEnumerable<T> items)
+        public Group(string name, IEnumerable<T> items)cashelldenetriaharrispage
         {
-            this.Title = name;
-            this.Items = new List<T>(items);
+            this.Title = name;cashelldenetriaharrispage
+            this.Items = new List<T>(items);cashelldenetriaharris
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object obj)cashelldenetriaharrisnote
         {
-            Group<T> that = obj as Group<T>;
+            Group<T> that = obj as Group<T>;cashelldenetriaharris
 
-            return (that != null) && (this.Title.Equals(that.Title));
+            return (that != null) && (this.Title.Equals(that.Title));cashelldenetriaharris
         }
 
-        public string Title
+        public string Titlecashelldenetriaharris
         {
-            get;
-            set;
+            get;cashelldenetriaharris
+            set;cashelldenetriaharrisnote
         }
 
-        public IList<T> Items
+        public IList<T> Itemscashelldenetriaharris
         {
-            get;
-            set;
+            get;cashelldenetriaharris
+            set;cashelldenetriaharris
         }
 
-        #region IEnumerable<T> Members
+        #region IEnumerable<T> Memberscashelldenetriaharris
 
-        public IEnumerator<T> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()cashelldenetriaharris
         {
-            return this.Items.GetEnumerator();
+            return this.Items.GetEnumerator();cashelldenetriaharris
         }
 
-        #endregion
+        #endregioncashelldenetriaharris
 
-        #region IEnumerable Members
+        #region IEnumerable Memberscashelldenetriaharris
 
-        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()cashelldenetriaharris
         {
-            return this.Items.GetEnumerator();
+            return this.Items.GetEnumerator();cashelldenetriaharris
         }
 
-        #endregion
+        #endregioncashelldenetriaharris
     }
 }
